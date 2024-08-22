@@ -9,26 +9,47 @@ function hello() {
   return 'Hello World!';
 }
 // Call the function to test
-console.log('Test - should say "Hello World!"', hello());
+//console.log('Test - should say "Hello World!"', hello());
 
 
 // 2. Function to return an personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
 function helloName(name) {
-  return;
+  return 'Hello, Your Name!';
+
 }
 // Remember to call the function to test
+//console.log('Test - should say Hello, Your Name!', helloName());
+
 
 
 // 3. Function to add two numbers together & return the result
-function addNumbers(firstNumber) {
+function addNumbers() {
   // return firstNumber + secondNumber;
+  let firstNumber = 5;
+  let secondNumber = 4;
+  let thirdNumber = 0;
+  results =  firstNumber + secondNumber;
+  return(results);
+
+// function addNumbers(num1, num2, num3) {
+// let results;
+// results = num1 + num2 + num3;
+// return results;
+// console.log(addNumbers(5, 10, 15));
+
 }
+
+   
+
 
 
 // 4. Function to multiply three numbers & return the result
+let num1 = 2;
+let num2 = 12;
+let num3 = 1;
 function multiplyThree() {
-
+return num1 * num2 * num3;
 }
 
 
@@ -36,25 +57,33 @@ function multiplyThree() {
 //    or greater than zero, and false otherwise
 function isPositive(number) {
   if (number > 0) {
-    return;
+    return true;
   }
-  return;
+  return false;
 }
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
+isPositive(false);
+console.log();
 
 
 // 6. Function to return the _last_ item in an array. If the 
 //    array is empty, return `undefined`.
 function getLast(array) {
-
+return the_last_itemArray;
+  if (empty) {
+    return undefined;
+  }
 }
 
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 function find(value, array) {
-
+for (let i = 0; i < array.length; i++) {
+  const element = array[i];
+  
+}
 }
 
 // ----------------------
@@ -62,7 +91,14 @@ function find(value, array) {
 // ----------------------
 // 8. Function to check if a letter is the first letter in a 
 //    string. Return true if it is, and false otherwise
+
+let wishList = ['newDesk', 'duelScreenLaptop', 'newDesk', 'ultraWideScreenMonitor']
 function isFirstLetter(letter, string) {
+  return string[0].toLowerCase() === letterToLowerCase();
+  //line 97 is what I did from chatgpt, it explained why it did it
+  //since we didn't study doing it this way I feel like there is a 
+  //shorter way of doing this. 
+  
 
 }
 
